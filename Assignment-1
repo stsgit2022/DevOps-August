@@ -1,1 +1,30 @@
+Create a local git repository and move the entire codebase to it
 
+git init
+git add .
+git commit -m "Initial commit"
+
+Create a new branch for a new feature you want to add to the application
+
+git checkout -b new-feature
+
+3. **Merge back the created branch with the master branch.**
+
+git checkout master
+git merge new-feature
+
+4. **Create a remote repository.**
+
+created as per instruction. 
+https://github.com/stsgit2022/DevOps-August
+
+5. **PUSH the local repository to the company's remote repository.**
+
+git remote add origin https://github.com/stsgit2022/DevOps-August/edit/main/Assignment-1
+git push origin master
+
+extra.
+
+* `git status` - shows the status of the current repository
+* `git log` - shows the commit history of the repository
+* `git diff` - shows the differences between two versions of the repository
